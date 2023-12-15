@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #fff;
+}
+#contenedor{
+    width: 1500px;
+    height: 1320px;
+    border: 2px solid #000;
+    margin: auto;
+    margin: 10px 0 10px 10px;
+}
+header{
+    background: #7c76e5;
+    width: 1500px;
+    height: 150px;
+}
+.logo{
+    width: 1500px;
+    height: 150px;
+    float: left;
+}
+nav{
+    width: 1500px;
+    height: 50px;
+    background: #1fb25f;
+    float: left;
+}
+#navegador ul{
+    background: #fff;
+    width: 1500;
+    height: 50px;
+    list-style: none;
+    padding-left: 410px;
+}
+#navegador ul li{
+    margin: 12px 15px 0 10px;
+    float: left;
+}
+#navegador ul li a{
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-style: italic;
+}
+#navegador ul li a:hover{
+    text-decoration: underline;
+}
+#navegador ul ol{
+    background-color: #fff;
+    width: 120px;
+    position: absolute;
+    display: none;
+}
+#navegador ul ol li{
+    width: 100px;
+    list-style: none;
+    float: none;
+    text-align: center;
+}
+#navegador ul ol li a{
+    color: #2c2c2c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    list-style: none;
+}
+#navegador ul ol li:hover, #navegador ul ol li a:hover{
+    text-decoration: underline;
+}
+#navegador ul li:hover>ol{
+    display: block;
+}
+main{
+    width: 1500px;
+    height: 1000px;
+    background: #fff;
+    float: left;
+}
+h1{
+    text-align: center;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: underline;
+}
+aside{
+    width: 250px;
+    height: 1000px;
+    float: left;
+}
+aside ul{
+    width: 250px;
+    height: 550px;
+    list-style: none;
+    text-align: center;
+}
+aside ul li{
+    width: 250px;
+    height: 60px;
+}
+aside ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 10px 40px;
+    border: 1px solid #1d0303;
+}
+aside ul li a:hover{
+    background: #fcd9de;
+}
+article{
+    width: 1250px;
+    height: 1050px;
+    float: left;
+}
+#art_destacados{
+    width: 300px;
+    height: 440px;
+    text-align: center;
+    background-color: #fff;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.destac{
+    width: 200px;
+    height: 280px;
+    border: 2px solid #000;
+    margin: 30px 0 0 0;
+}
+.destac:hover{
+    width: 205px;
+    height: 305px;
+    border: 2px solid #000;
+    box-shadow: 5px 8px 8px #999;
+}
+h2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+h3{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+}
+.abajo{
+    width: 1500px;
+    height: 50px;
+    background: #1fb25f;
+    float: left;
+}
+.abajo ul{
+    background: #fff;
+    width: 1500;
+    height: 50px;
+    list-style: none;
+    padding-left: 640px;
+}
+.abajo ul li{
+    margin: 10px 15px 0 10px;
+    float: left;
+}
+.abajo ul li a{
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-style: italic;
+}
+.abajo ul li a:hover{
+    text-decoration: underline;
+}
+footer{
+    float: left;
+    width: 1500px;
+    height: 70px;
+    background-color: #fff;
+}
+.icono{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 650px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.icono:hover{
+    box-shadow: 2px 10px 10px #9d9d9d;
+}

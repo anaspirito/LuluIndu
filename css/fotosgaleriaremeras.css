@@ -1,0 +1,45 @@
+*{
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(#000, #fff)
+}
+#contenedor{
+    width: 800px;
+    height: 720px;
+    margin: auto;
+}
+#izquierda, #derecha{
+    width: 10%;
+    height: 450px;
+    float: left;
+    text-align: center;
+    padding-top: 35%;
+}
+#foto{
+    width: 540px;
+    float: left;
+}
+#foto img{
+    width: 100%;
+    height: 720px;
+}
+#izquierda a, #derecha a{
+    color: #000;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 90px;
+    padding-top: 150%;
+}
+#izquierda a:hover, #derecha a:hover, #cruz a:hover{
+    color: #737272;
+}
+#cruz{
+    font-size: 60px;
+    position: relative;
+    left: 140px;
+    text-decoration: none;
+}
+#cruz a{
+    color: #fff;
+}
